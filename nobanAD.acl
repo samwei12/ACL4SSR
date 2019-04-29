@@ -55,13 +55,12 @@
 
 # Alibaba
 (^|\.)alibaba\.com$
-(^|\.)alipay\.com$
 (^|\.)alibaba-inc\.com
 (^|\.)alicdn\.com$
 (^|\.)aliexpress\.com$
 (^|\.)aliimg\.com$
 (^|\.)alikunlun\.com$
-(^|\.)alipay\.com$
+(^|\.)alipay\.com
 (^|\.)alipayobjects\.com$
 (^|\.)alisoft\.com$
 (^|\.)aliyun\.com$

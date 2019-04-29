@@ -15,15 +15,15 @@
 
 # 版本解释
 
-文件               | 默认  | 去广告  | 局域网 |   国内IP段  |   国内域名    |     国外
-----              | ----  |  ----  | ----  |   ----     |     ----     |    ----
-banAD.acl         |  代理  |   是   |  直连  |    有-直连  | 常用域名-直连  |  代理-常用国外域名增强
-onlybanAD.acl     |  代理  |   是   |  直连  |    无      |    无         |  代理-常用国外域名增强
-nobanAD.acl       |  代理  |   否   |  直连  |    有-直连  |  常用域名-直连 |  全局代理
-backcn-banAD.acl  |  直连  |   是   |  直连  |    有-代理  |    无         |  直连
-gfwlist-banAD.acl |  直连  |   是   |  直连  |    无      |    无         |  代理-gfwlist列表
-fullgfwlist.acl   |  直连  |   否   |  直连  |    无      |    无         |  代理-gfwlist列表
-gfwlist-user.rule |  直连  |   是   |  直连  |    无      |     无        |  代理-gfwlist列表
+| 文件              | 默认 | 去广告 | 局域网 | 国内IP段 | 国内域名      | 国外                  |
+| ----------------- | ---- | ------ | ------ | -------- | ------------- | --------------------- |
+| banAD.acl         | 代理 | 是     | 直连   | 有-直连  | 常用域名-直连 | 代理-常用国外域名增强 |
+| onlybanAD.acl     | 代理 | 是     | 直连   | 无       | 无            | 代理-常用国外域名增强 |
+| nobanAD.acl       | 代理 | 否     | 直连   | 有-直连  | 常用域名-直连 | 全局代理              |
+| backcn-banAD.acl  | 直连 | 是     | 直连   | 有-代理  | 无            | 直连                  |
+| gfwlist-banAD.acl | 直连 | 是     | 直连   | 无       | 无            | 代理-gfwlist列表      |
+| fullgfwlist.acl   | 直连 | 否     | 直连   | 无       | 无            | 代理-gfwlist列表      |
+| gfwlist-user.rule | 直连 | 是     | 直连   | 无       | 无            | 代理-gfwlist列表      |
 
 
 # 安卓 SSR 去广告ACL规则
@@ -36,13 +36,13 @@ gfwlist-user.rule |  直连  |   是   |  直连  |    无      |     无       
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
 # ♻️ SS/SSR ACL Files Download：
-* ACL更新地址（**白名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
-* ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
-* ACL更新地址（**全局**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
-* ACL更新地址（**仅GFWList**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/fullgfwlist.acl （原版SS**能且仅能**使用此规则）
-* ACL更新地址（**国内代理**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/backcn-banAD.acl
-* ACL更新地址（**白名单，无去广告**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/nobanAD.acl
-* SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
+* ACL更新地址（**白名单**）：https://raw.githubusercontent.com/samwei12/ACL4SSR/master/banAD.acl
+* ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/samwei12/ACL4SSR/master/gfwlist-banAD.acl
+* ACL更新地址（**全局**）：https://raw.githubusercontent.com/samwei12/ACL4SSR/master/onlybanAD.acl
+* ACL更新地址（**仅GFWList**）：https://raw.githubusercontent.com/samwei12/ACL4SSR/master/fullgfwlist.acl （原版SS**能且仅能**使用此规则）
+* ACL更新地址（**国内代理**）：https://raw.githubusercontent.com/samwei12/ACL4SSR/master/backcn-banAD.acl
+* ACL更新地址（**白名单，无去广告**）：https://raw.githubusercontent.com/samwei12/ACL4SSR/master/nobanAD.acl
+* SSR C# GFWList user.rule ：https://raw.githubusercontent.com/samwei12/ACL4SSR/master/gfwlist-user.rule
 
 
 * SS：https://github.com/shadowsocks
