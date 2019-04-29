@@ -55,6 +55,8 @@
 
 # Alibaba
 (^|\.)alibaba\.com$
+(^|\.)alipay\.com$
+(^|\.)alibaba-inc\.com
 (^|\.)alicdn\.com$
 (^|\.)aliexpress\.com$
 (^|\.)aliimg\.com$
