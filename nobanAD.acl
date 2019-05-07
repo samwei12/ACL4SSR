@@ -71,6 +71,7 @@
 (^|\.)tbcache\.com$
 (^|\.)tbcdn\.com$
 (^|\.)tmall\.com$
+(^|\.)tmall\.net
 
 # Apple
 (^|\.)aaplimg\.com$
