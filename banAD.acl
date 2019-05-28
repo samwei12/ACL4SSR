@@ -1507,6 +1507,7 @@
 
 # Alibaba
 (^|\.)alibaba\.com$
+(^|\.)alibaba-inc\.com
 (^|\.)alicdn\.com$
 (^|\.)aliexpress\.com$
 (^|\.)aliimg\.com$
